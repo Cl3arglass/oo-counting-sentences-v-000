@@ -19,6 +19,7 @@ class String
     self.split(/[!.?]/).each do |el|
       if el.length > 0
          count += 1
+     end
     end
     count
   end
